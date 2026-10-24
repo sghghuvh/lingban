@@ -10,7 +10,7 @@ jobs:
           distribution: temurin
           java-version: "17"
       - run: |
-          unzip -q src-1.zip -d proj
+          unzip -q src-2.zip -d proj
           bash proj/ci.sh
       - uses: actions/upload-artifact@v4
         with:
